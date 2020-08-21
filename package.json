@@ -9,6 +9,7 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^3.0.0-0",
+    "vue-router": "^3.4.3",
     "vuex": "^4.0.0-0"
   },
   "devDependencies": {
@@ -16,5 +17,17 @@
     "@vue/cli-plugin-vuex": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0-0"
-  }
+  },
+  "description": "## Project setup ``` npm install ```",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeSJX/supermall.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeSJX/supermall/issues"
+  },
+  "homepage": "https://github.com/codeSJX/supermall#readme"
 }
