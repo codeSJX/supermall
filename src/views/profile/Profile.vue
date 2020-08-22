@@ -1,22 +1,13 @@
 <template>
-  <div>
-
-  </div>
+  <h2>我的</h2>
 </template>
 
 <script>
-
-  export default {
-    name: "Profile",
-    components: {
-    }
-  }
+export default {
+  name: "Profile"
+}
 </script>
 
 <style scoped>
-  .content {
-    height: 300px;
-    background-color: red;
-    overflow: hidden;
-  }
+
 </style>

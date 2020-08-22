@@ -1,5 +1,5 @@
 {
-  "name": "supermall",
+  "name": "mall",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,27 +7,17 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^3.0.0-0",
-    "vue-router": "^3.4.3",
-    "vuex": "^4.0.0-0"
+    "axios": "^0.18.1",
+    "better-scroll": "^1.15.2",
+    "vue": "^2.5.17",
+    "vue-lazyload": "^1.2.6",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-vuex": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0-0"
-  },
-  "description": "## Project setup ``` npm install ```",
-  "main": "babel.config.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/codeSJX/supermall.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/codeSJX/supermall/issues"
-  },
-  "homepage": "https://github.com/codeSJX/supermall#readme"
+    "@vue/cli-plugin-babel": "^3.0.5",
+    "@vue/cli-service": "^3.0.5",
+    "postcss-px-to-viewport": "0.0.3",
+    "vue-template-compiler": "^2.5.17"
+  }
 }
